@@ -15,7 +15,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
-        <header className='fixed top-0 left-0 z-50 w-full py-7'>
+        <header className='fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-4'>
             <div className='container flex h-14 items-center max-lg:px-5'>
                 <a className='lg:hidden flex-1 cursor-pointer z-2'>
                     <img src="/logo.png" alt="Logo" width={56} height={50}/>
